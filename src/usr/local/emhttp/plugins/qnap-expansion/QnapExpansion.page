@@ -1,0 +1,6 @@
+Menu="Utilities"
+Type="xmenu"
+Title="QNAP Expansion"
+Icon="qnap-expansion.png"
+Tag="th"
+Tabs="true"

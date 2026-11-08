@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommunityApplications>
+  <Profile>QNAP Expansion for Unraid checks the QXP card of a QNAP TL-D1600S JBOD enclosure, shows each drive in its bay and finds a drive with Locate. Support and questions: the GitHub issues of this repository.</Profile>
+  <Icon>https://raw.githubusercontent.com/luuvasara/unraid-qnap-expansion/main/icon.png</Icon>
+  <WebPage>https://github.com/luuvasara/unraid-qnap-expansion</WebPage>
+</CommunityApplications>

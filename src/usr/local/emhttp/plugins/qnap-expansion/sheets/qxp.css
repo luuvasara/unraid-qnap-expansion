@@ -1,0 +1,11 @@
+/* Status tab. Unraid's own table and text-colour classes; no text or page colour is set here, so all four themes work. */
+.qxp .qxp-verdict { margin: 8px 0 12px; }
+.qxp .qxp-p { max-width: 62em; margin: 8px 0 16px; }
+.qxp .qxp-scroll { overflow-x: auto; margin: 0 0 16px; }
+.qxp table.qxp-t { width: 100%; margin: 0; }
+.qxp table.qxp-t th[scope=row], .qxp table.qxp-t th[scope=rowgroup] { text-align: left; font-weight: bold; vertical-align: top; white-space: pre-line; }
+.qxp table.qxp-t td { vertical-align: top; white-space: normal; }
+.qxp table.qxp-checks th[scope=row] { width: 14em; white-space: nowrap; }
+.qxp table.qxp-checks td.qxp-nowrap { width: 7em; }
+.qxp .qxp-nowrap { white-space: nowrap; }
+.qxp .qxp-cap { caption-side: top; text-align: left; font-weight: bold; padding: 8px 0 4px; }

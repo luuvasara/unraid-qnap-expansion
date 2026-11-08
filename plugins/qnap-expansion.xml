@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugin>
+  <Name>QNAP Expansion</Name>
+  <PluginURL>https://raw.githubusercontent.com/luuvasara/unraid-qnap-expansion/main/qnap-expansion.plg</PluginURL>
+  <Support>https://github.com/luuvasara/unraid-qnap-expansion/issues</Support>
+  <Project>https://github.com/luuvasara/unraid-qnap-expansion</Project>
+  <Icon>https://raw.githubusercontent.com/luuvasara/unraid-qnap-expansion/main/icon.png</Icon>
+  <Category>Tools:System</Category>
+  <MinVer>6.12.0</MinVer>
+  <License>GPL-2.0</License>
+  <ReadMe>https://github.com/luuvasara/unraid-qnap-expansion#readme</ReadMe>
+  <ExtraSearchTerms>qnap tl-d1600s qxp jbod enclosure bay locate asm1164</ExtraSearchTerms>
+  <Overview>Support for the QNAP TL-D1600S JBOD enclosure on its QXP-1600eS-A1164 card.
+
+- Status: the card, its driver, PCIe links and error counters, each drive's SATA link, and the cabling.
+- Enclosures: a front view with the drive in each bay and its state as Unraid last read it; no drive is woken.
+- Locate: flashes a drive's activity light by reading it, to find it in its bay.
+
+For the live overview, temperature history and a hardware inventory, install the companion plugin, QNAP Hardware.</Overview>
+</Plugin>

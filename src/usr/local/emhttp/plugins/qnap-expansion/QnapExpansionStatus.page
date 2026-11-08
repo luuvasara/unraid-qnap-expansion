@@ -1,0 +1,15 @@
+Menu="QnapExpansion:1"
+Title="Status"
+Tag="heartbeat"
+Markdown="false"
+---
+<?php
+/* Status: is the enclosure's card there and working, and what was checked. Read-only (include/qxp-status.php). */
+require_once "$docroot/plugins/qnap-expansion/include/qxp-status.php";
+$qxp_css = substr((string)@md5_file("$docroot/plugins/qnap-expansion/sheets/qxp.css"), 0, 10);
+?>
+<link rel="stylesheet" href="/plugins/qnap-expansion/sheets/qxp.css?v=<?=$qxp_css?>">
+<div class="qxp">
+<?=qxp_render(qxp_collect())?>
+<p class="qxp-p">This plugin reads the card and the drives the way the server sees them: the PCI devices of the card, their links and error counters, the SATA ports and the state Unraid keeps of each drive. It changes nothing and needs no driver of its own. The Enclosures tab shows each drive in its bay, with Locate and the cabling check. The companion plugin, QNAP Hardware, adds the live overview, temperature history, a hardware inventory and a report for other units.</p>
+</div>

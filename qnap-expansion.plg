@@ -2,12 +2,12 @@
 <!DOCTYPE PLUGIN [
   <!ENTITY name    "qnap-expansion">
   <!ENTITY author  "QNAP Expansion project">
-  <!ENTITY version "2026.11.08b">
+  <!ENTITY version "2026.11.09a">
   <!ENTITY gitURL  "https://raw.githubusercontent.com/luuvasara/unraid-qnap-expansion/main">
   <!ENTITY pluginURL "&gitURL;/qnap-expansion.plg">
   <!ENTITY pkg     "qnap-expansion-&version;-x86_64-1.txz">
   <!ENTITY pkgURL  "&gitURL;/packages/&pkg;">
-  <!ENTITY md5     "a54327287159a690d9213c9508a3cfc0">
+  <!ENTITY md5     "47333634a070f60609f1b136d8817cf2">
 ]>
 <!-- QNAP Expansion: support for the QNAP TL-D1600S JBOD enclosure on its QXP card, from the enclosure profile of the plugin kit.
      No daemon, no driver, no background job: the pages read Unraid's own state and sysfs when they are opened.
@@ -15,6 +15,10 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" min="6.12.0" launch="Utilities/QnapExpansion" icon="qnap-expansion.png" pluginURL="&pluginURL;">
 
 <CHANGES>
+###2026.11.09a
+- Enclosures: the unit is drawn as it looks. Front: the trays stand upright where they sit (HDD9-HDD12 top left, the four SSD trays under the LCD, HDD1-HDD8 along the bottom), with the LCD, its buttons, the status LEDs and the drive LED strip. Rear: the three fans, the switches and the four SFF-8088 ports, each with the bays it feeds and the drives the server sees through it. Each tray shows its bay, temperature, drive, Unraid slot and state; a drive being located is outlined. LEDs, fans and switches are drawn but not read.
+- Main page bay labels now also show for unassigned drives (Unassigned Devices puts a "Clear Disk" link after the drive name, which hid the label).
+
 ###2026.11.08b
 - Enclosures tab: the cabling form no longer upsets the numbering of the tabs that follow it.
 

@@ -16,7 +16,7 @@ This plugin works on its own; both read the same enclosure profile and share the
 | | |
 |---|---|
 | Status | whether the card is found (PCI ids and QNAP subsystem), runs on the standard ahci driver, its PCIe links run at the speed and width both ends can do, its PCIe error counters, each drive's SATA link, and whether the cabling is confirmed |
-| Enclosures | a front view as the bays are labelled on the unit (HDD1-HDD12, SSD1-SSD4) with the drive in each bay, its Unraid slot, temperature, state and SMART health as Unraid last read them; no drive is woken |
+| Enclosures | a drawing of the unit as it looks, front and rear, with the bays as labelled on it (HDD1-HDD12, SSD1-SSD4) with the drive in each bay, its Unraid slot, temperature, state and SMART health as Unraid last read them; no drive is woken |
 | Locate | reads one drive for 20 seconds so its activity light flashes; it only reads, and asks first when the drive is in standby |
 | Cabling | which controller of the card feeds which group of bays depends on how the four cables are plugged; confirm yours with Locate once, and every drive is shown in its bay |
 

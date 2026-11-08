@@ -2,6 +2,10 @@
 
 Copied by the build from the <CHANGES> block of qnap-expansion.plg; edit the .plg, not this file.
 
+## 2026.11.09a
+- Enclosures: the unit is drawn as it looks. Front: the trays stand upright where they sit (HDD9-HDD12 top left, the four SSD trays under the LCD, HDD1-HDD8 along the bottom), with the LCD, its buttons, the status LEDs and the drive LED strip. Rear: the three fans, the switches and the four SFF-8088 ports, each with the bays it feeds and the drives the server sees through it. Each tray shows its bay, temperature, drive, Unraid slot and state; a drive being located is outlined. LEDs, fans and switches are drawn but not read.
+- Main page bay labels now also show for unassigned drives (Unassigned Devices puts a "Clear Disk" link after the drive name, which hid the label).
+
 ## 2026.11.08b
 - Enclosures tab: the cabling form no longer upsets the numbering of the tabs that follow it.
 

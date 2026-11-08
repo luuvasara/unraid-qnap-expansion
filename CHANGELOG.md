@@ -2,6 +2,9 @@
 
 Copied by the build from the <CHANGES> block of qnap-expansion.plg; edit the .plg, not this file.
 
+## 2026.11.08b
+- Enclosures tab: the cabling form no longer upsets the numbering of the tabs that follow it.
+
 ## 2026.11.08a
 - First version. Utilities, QNAP Expansion, for a QNAP TL-D1600S on its QXP-1600eS-A1164 card.
 - Status tab: whether the card is found (by its PCI ids and QNAP subsystem), runs on the standard ahci driver, its PCIe links run at the speed and width both ends can do, its PCIe error counters, the SATA link of each drive, and whether the cabling is confirmed. What the server cannot reach of the enclosure (fans, LEDs, firmware) is said plainly.

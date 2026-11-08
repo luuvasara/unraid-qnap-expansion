@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2015,SC2016  # "check && ok || bad" is the test idiom; php -r code is single-quoted on purpose
 # Offline test suite of qnap-expansion (build host only; touches no server): the Status checks, the kit's enclosure tests as
 # shipped in kit/, lint, and the render test (pages of the built package in headless Chrome).
 set -u

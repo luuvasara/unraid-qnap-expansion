@@ -35,7 +35,7 @@ The enclosure runs its fans and lights itself; the server has no way to reach th
 
 ## Screenshots
 
-Taken in the offline test harness with made-up test data.
+Taken in the offline test harness with example data.
 
 Status: the checks.
 
